@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: 'Jakarta-bold';
+  src: url('/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Jakarta';
+  src: url('/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Medium.ttf');
+}
+@font-face {
+  font-family: 'Jakarta-bold-extra';
+  src: url('/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraBold.ttf');
+}
+
+body{
+  font-family: jakarta;
+  overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+  width: 8px;
+  height: 2px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #e5e7eb;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #2b4dff;
+  border-radius: 50px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #1a34cc;
+}
+
+h1,h2,h3{
+  font-family: Jakarta-bold;
+}
+
+@media screen and (min-width:768px){
+  
+  #clip_box {
+    position: relative;
+    z-index: 5;
+    clip-path: polygon(97.261% 100%, 2.739% 100%, 2.739% 100%, 2.294% 99.929%, 1.873% 99.725%, 1.48% 99.398%, 1.121% 98.959%, 0.802% 98.42%, 0.528% 97.792%, 0.306% 97.085%, 0.14% 96.311%, 0.036% 95.481%, 0% 94.606%, 0% 5.394%, 0% 5.394%, 0.036% 4.519%, 0.14% 3.689%, 0.306% 2.915%, 0.528% 2.208%, 0.802% 1.58%, 1.121% 1.041%, 1.48% 0.602%, 1.873% 0.275%, 2.294% 0.071%, 2.739% 0%, 51.973% 0%, 51.973% 0%, 52.354% 0.052%, 52.72% 0.204%, 53.068% 0.449%, 53.394% 0.782%, 53.693% 1.195%, 53.961% 1.683%, 54.195% 2.239%, 54.39% 2.857%, 54.543% 3.53%, 54.65% 4.251%, 54.663% 4.373%, 54.737% 5.831%, 54.757% 6.209%, 54.757% 6.209%, 54.77% 6.408%, 54.786% 6.606%, 54.806% 6.802%, 54.83% 6.996%, 54.857% 7.189%, 54.888% 7.379%, 54.922% 7.567%, 54.96% 7.753%, 55.002% 7.935%, 55.047% 8.115%, 55.231% 8.819%, 55.231% 8.819%, 55.385% 9.337%, 55.566% 9.813%, 55.77% 10.242%, 55.995% 10.624%, 56.24% 10.954%, 56.501% 11.23%, 56.776% 11.45%, 57.063% 11.611%, 57.361% 11.709%, 57.665% 11.742%, 97.261% 11.742%, 97.261% 11.742%, 97.705% 11.813%, 98.127% 12.017%, 98.52% 12.344%, 98.879% 12.783%, 99.198% 13.322%, 99.471% 13.951%, 99.694% 14.657%, 99.86% 15.431%, 99.964% 16.261%, 100% 17.136%, 100% 94.606%, 100% 94.606%, 99.964% 95.481%, 99.86% 96.311%, 99.694% 97.085%, 99.471% 97.792%, 99.198% 98.42%, 98.879% 98.959%, 98.52% 99.398%, 98.127% 99.725%, 97.705% 99.929%, 97.261% 100%);
+
+  }
+
+
+
+  #clip_box > * {
+    position: relative;
+    z-index: 10; 
+  }
+}
+
+
+
+
+#trend_img_box {
+  background: linear-gradient(180deg, #3C72FC -210.71%, #00060C 100%);
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+
+#trend_img {
+  
+  filter: invert(30%) sepia(100%) saturate(5000%) hue-rotate(220deg) brightness(95%) contrast(105%);
+  transition: all 0.3s ease;
+}
+
+#trend_box:hover #trend_img {
+  filter: invert(100%) brightness(200%);
+}
+
+#trend_box:hover #trend_img_box {
+  background: #2b4dff;
+}
+
