@@ -12,6 +12,11 @@ import Questions from '../components/Questions';
 import RightDrawer from '../components/Drawer';
 import AccordionUsage from '../components/Accordion';
 import Solution from '../components/Solution';
+import Client_review from '../components/Client_review';
+import Blogs from '../components/Blogs';
+import ClientsMedia from '../components/ClientsMedia';
+import Footer from '../components/Footer';
+
 
 
 
@@ -42,14 +47,18 @@ const Home = () => {
     <AboutusCards/>
     <TextTicker/>
 
-    {/* <CustomSlider/>
-    <Quality/>
+     <CustomSlider/>
+    {/* <Quality/> */}
     <Development/>
     <Trends/>
   
 
-<Questions/> */}
+<Questions/> 
 <Solution/>
+<Client_review/>
+<Blogs/>
+<ClientsMedia/>
+<Footer/>
       
     </div>
   )

@@ -26,14 +26,14 @@ const Solution = () => {
   ];
 
   return (
-    <div className="w-[95%] m-auto ">
+    <div className="w-[80%] m-auto py-[clamp(60px,6vw,120px)] bg-[#f0f3ff]">
 
       {/* Header + Buttons */}
-      <div className="flex w-full justify-between mb-5">
+      <div className="flex w-full justify-center sm:justify-between mb-5">
         
         {/* Left Arrow */}
         <div
-          className="h-[46px] w-[46px] rounded-full text-[#2b4dff] bg-white hover:bg-[#2b4dff] hover:text-white shadow-[0_4px_50px_rgba(0,0,0,0.06)] transition-all duration-300 ease-in cursor-pointer flex items-center justify-center"
+          className="h-[46px] w-[46px] rounded-full text-[#2b4dff] bg-white hover:bg-[#2b4dff] hover:text-white shadow-[0_4px_50px_rgba(0,0,0,0.06)] transition-all duration-300 ease-in hidden cursor-pointer sm:flex items-center justify-center"
           onClick={() => splideRef.current.splide.go('<')}
         >
           <ArrowLeft />
@@ -52,7 +52,7 @@ const Solution = () => {
 
         {/* Right Arrow */}
         <div
-          className="h-[46px] w-[46px] rounded-full text-[#2b4dff] bg-white hover:bg-[#2b4dff] hover:text-white shadow-[0_4px_50px_rgba(0,0,0,0.06)] transition-all duration-300 ease-in cursor-pointer flex items-center justify-center"
+          className="h-[46px] w-[46px] rounded-full text-[#2b4dff] bg-white hover:bg-[#2b4dff] hover:text-white shadow-[0_4px_50px_rgba(0,0,0,0.06)] transition-all duration-300 hidden ease-in cursor-pointer sm:flex items-center justify-center"
           onClick={() => splideRef.current.splide.go('>')}
         >
           <ArrowRight />
@@ -92,7 +92,7 @@ pauseOnHover: false,
   },
 },
   }}
-  className="bg-[#f0f3ff] py-3 flex items-center"
+  className=" py-3 flex items-center"
 >
   {sol_boxes.map((sol_box, i) => (
     <SplideSlide key={i} className="w-screen min-w-[379px] bg-white relative p-4 flex group overflow-hidden" style={{
