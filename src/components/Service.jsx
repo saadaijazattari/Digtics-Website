@@ -39,8 +39,8 @@
 
         <div className='flex flex-col sm:flex-row items-center w-[75%] m-auto justify-between'>
         <div>
-          <div className='flex gap-2 items-center '><Smallicon/> <p className='text-[14px]'>OUR SERVICES</p></div>
-          <h1 className='text-[25px] 2xl:text-[37px]'>Best Solutions</h1>
+          <div className='flex gap-2 items-center '><Smallicon/> <p className='text-[14px] text-[#2b4dff]'>OUR SERVICES</p></div>
+          <h1 className='text-[25px] 2xl:text-[37px] text-[#0a165e]'>Best Solutions</h1>
         </div>
         <div className='flex gap-5 z-0'>
           <div className='rounded-full bg-white cursor-pointer h-[46px] w-[46px] flex items-center justify-center hover:bg-[#2b4dff] hover:text-white shadow-[0_4px_50px_rgba(0,0,0,0.06)]  transition-all duration-0.4s ease-in'

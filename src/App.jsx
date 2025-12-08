@@ -8,6 +8,7 @@ import Service_Page from './pages/Service_Page'
 import Blogs_Page from './pages/Blogs_Page'
 import Not_Found_Page from './pages/Not_Found_Page'
 import FAQ_Page from './pages/FAQ_Page'
+import Pages_page from './pages/Pages_page'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path='/blogs' element={<Blogs_Page/>}/>
         <Route path='*' element={<Not_Found_Page/>}/>
         <Route path='/faq' element={<FAQ_Page/>}/>
+        <Route path='/pages' element={<Pages_page/>}/>
       </Routes>
     </div>
   )

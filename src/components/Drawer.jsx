@@ -11,6 +11,7 @@ import ListItemText from "@mui/material/ListItemText";
 import InboxIcon from "@mui/icons-material/MoveToInbox";
 import MailIcon from "@mui/icons-material/Mail";
 import { MoveRight } from "lucide-react";
+import Drawer_content from "./Drawer_content";
 
 export default function RightDrawer() {
   const [open, setOpen] = React.useState(false);
@@ -27,6 +28,7 @@ export default function RightDrawer() {
       onKeyDown={toggleDrawer(false)}
     >
       {/* text yahan likho */}
+      <Drawer_content toggleDrawer={toggleDrawer}/>
 
       
     </Box>

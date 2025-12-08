@@ -26,6 +26,8 @@ const Solution = () => {
   ];
 
   return (
+    <div className='bg-[#f0f3ff]'>
+
     <div className="w-[80%] m-auto py-[clamp(60px,6vw,120px)] bg-[#f0f3ff]">
 
       {/* Header + Buttons */}
@@ -45,7 +47,7 @@ const Solution = () => {
             <Smallicon />
             <p className="text-[13px] text-[#2b4dff]">Latest Case Study</p>
           </div>
-          <h1 className="text-[25px] sm:text-[29px] mb-3 lg:text-[33px] 2xl:text-[39px]">
+          <h1 className="text-[25px] sm:text-[29px] mb-3 lg:text-[33px] 2xl:text-[39px] text-center text-[#0a165e]">
             We Deliverd Best Solution
           </h1>
         </div>
@@ -111,7 +113,7 @@ pauseOnHover: false,
             {sol_box.button}
           </button>
 
-          <h1 className="mt-2 text-[clamp(20px,3vw,23px)] font-semibold">
+          <h1 className="mt-2 text-[clamp(20px,3vw,23px)] font-semibold text-[#0a165e]">
             {sol_box.heading}
           </h1>
         </div>
@@ -123,6 +125,7 @@ pauseOnHover: false,
 
 
 
+    </div>
     </div>
   );
 };

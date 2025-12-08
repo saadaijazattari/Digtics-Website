@@ -20,7 +20,7 @@ const Navbar = () => {
   },
     {
     name:"Pages",
-    lin:"/"
+    lin:"/pages"
   },
     {
     name:"Blog",

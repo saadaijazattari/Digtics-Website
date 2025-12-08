@@ -28,7 +28,7 @@ const Blogs = () => {
 
         <div className='flex items-center justify-between mb-[clamp(22px,3vw,51px)]'>     {/*top section ka div*/}
           
-          <div className='flex flex-col gap-3 '><div className='flex gap-2 items-center'><Smallicon/><p className='text-[#2b4dff] text-[clamp(13px,2vw,15.708px)]'>LATEST NEWS & BLOGS</p></div><h1 className='text-[clamp(25px,3vw,37.338px)]'>  Explore News & Blog</h1></div>
+          <div className='flex flex-col gap-3 '><div className='flex gap-2 items-center'><Smallicon/><p className='text-[#2b4dff] text-[clamp(13px,2vw,15.708px)]'>LATEST NEWS & BLOGS</p></div><h1 className='text-[clamp(25px,3vw,37.338px)] text-[#0a165e]'>  Explore News & Blog</h1></div>
           <div><div
           className="rounded-full gap-2 text-[14px] bg-[linear-gradient(90deg,#2B4DFF_0%,#C700B1_100%)] px-4 py-2 cursor-pointer text-white items-center transition-all duration-300 ease-in-out hidden sm:flex xl:text-[15px]  xl:px-4 2xl:text-base 2xl:py-3 2xl:px-4">Get in touch <MoveUpRight /></div></div>
 
@@ -50,7 +50,7 @@ const Blogs = () => {
                   <div className='w-full sm:h-[232px]   sm:w-[232px] rounded-[10px] overflow-hidden'><img src={blog.blog_img} alt="image" className='w-full '/></div>
                   <div className='w-full flex flex-col gap-4 justify-center  sm:flex-1'>
                     <div className='flex gap-5 items-center'><div className='flex gap-2 items-center'><Tag stroke='#2b4dff' className='rotate-90 w-[clamp(17px,1vw,19.64px)] h-[clamp(17px,2vw,19.64px)]'/><p className='text-[#726b7d] text-[clamp(12px,1vw,13.6323px)]'>Technology</p></div><div className='flex items-center gap-2'><MessageCircleMore stroke='#2b4dff'  className='w-[clamp(17px,1vw,19.64px)] h-[clamp(17px,2vw,19.64px)]'/><p className='text-[#726b7d] text-[clamp(12px,1vw,13.6323px)]'>0 comments</p></div></div>
-                    <div><h1 className='text-[clamp(21px,2vw,23.562px)]'>{blog.heading}</h1></div>
+                    <div><h1 className='text-[clamp(21px,2vw,23.562px)] text-[#0a165e]'>{blog.heading}</h1></div>
                     <div className='flex gap-2'>
                       <div  className='rounded-full overflow-hidden aspect-square h-[clamp(45.50px,4vw,54.20px)]'><img src={blog.img_profile} alt=""   className='h-full w-full'/></div>
                       <div><p className='text-[clamp(12px,2vw,14px)] text-[#2b4dff]'>By Admin</p><p className='text-[clamp(13px,2vw,16px)]'>{blog.name}</p></div>
@@ -67,7 +67,7 @@ const Blogs = () => {
             <div className='w-full  '><img src="/images/blogs/b_3.jpg" alt="image" className='lg:h-auto h-[80%] w-full'/></div>
            <div className='flex flex-col gap-4 justify-center'>
               <div className='flex gap-5 items-center'><div className='flex gap-2 items-center'><Tag stroke='#2b4dff' className='rotate-90 w-[clamp(17px,1vw,19.64px)] h-[clamp(17px,2vw,19.64px)]'/><p className='text-[#726b7d] text-[clamp(12px,2vw,13.6323px)]'>Technology</p></div><div className='flex items-center gap-2'><MessageCircleMore stroke='#2b4dff'  className='w-[clamp(17px,1vw,19.64px)] h-[clamp(17px,2vw,19.64px)]'/><p className='text-[#726b7d] text-[clamp(12px,2vw,13.6323px)]'>0 comments</p></div></div>
-              <div><h1 className='text-[clamp(21px,2vw,23.562px)]'>Keep Your Business Safe & Ensure High Availability.</h1></div>
+              <div><h1 className='text-[clamp(21px,2vw,23.562px)] text-[#0a165e]'>Keep Your Business Safe & Ensure High Availability.</h1></div>
               <div><p className='text-[clamp(13px,2vw,16px)] text-[#726b7d]'>From luxury and economy cars and find out which best suits your lifestyle economy cars and find</p></div>
               <div className='flex gap-2'>
                       <div  className='rounded-full overflow-hidden aspect-square h-[clamp(45.50px,4vw,54.20px)]'><img src='/images/blogs/b_3_pro.jpg' alt=""   className='h-full w-full'/></div>

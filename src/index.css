@@ -81,3 +81,27 @@ h1,h2,h3{
   background: #2b4dff;
 }
 
+
+@media screen and (max-width:499px){
+#footer_part1{
+
+  flex-direction: column;
+  align-items: flex-start;
+}
+}
+
+@media screen and (min-width:500px) {
+  #footer_part1{
+    justify-content: center;
+  }
+  #footer_part1_box2,#footer_part1_box1{
+    padding-left: clamp(15px,3vw,65px);
+    border-left: 1px solid #ffffff33;
+    margin-left:"clamp(15px,3vw,65px)"
+  }
+}
+/* index.css ya global.css me add karo */
+.splide__pagination {
+  display: none !important;
+}
+

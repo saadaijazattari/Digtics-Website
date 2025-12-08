@@ -20,7 +20,7 @@ const Questions = () => {
       <p className='text-[13px] text-[#2b4dff] '>FREQUENTLY ASKED QUESTIONS</p>
     </div>
 
-    <h1 className='text-[25px] sm:text-[29px] mb-3 lg:text-[33px] 2xl:text-[39px]'>
+    <h1 className='text-[25px] sm:text-[29px] mb-3 lg:text-[33px] 2xl:text-[39px] text-[#0a165e]'>
       Let's Meet And Work Together Your Project
     </h1>
 

@@ -20,9 +20,9 @@ const Development = () => {
     },
   ]
   return (
-    <div className=' py-[60px]  flex flex-col gap-4 items-center justify-center sm:py-[70px] md:py-20 lg:py-[90px] xl:py-[100px] 2xl:py-[116px]'>
+    <div className=' py-[60px]   flex flex-col gap-4 items-center justify-center sm:py-[70px] md:py-20 lg:py-[90px] xl:py-[100px] 2xl:py-[116px]'>
       <div className='flex gap-2 items-center justify-center'><Smallicon/><p className='text-[13px] md:text-[14px ] 2xl:text-[15px] text-[#2b4dff]'>WORK PROCESS</p></div>
-      <h1 className='text-[25px] sm:text-[29px] lg:text-[33px] 2xl:tetx-[39px]'>Our Development Process</h1>
+      <h1 className='text-[25px] sm:text-[29px] lg:text-[33px] 2xl:tetx-[39px] text-[#0a165e]'>Our Development Process</h1>
       <div className='flex flex-wrap items-center justify-center gap-20 max-w-[1246px] w-full '>
         {dev_processes.map((process,i)=>{
           return(

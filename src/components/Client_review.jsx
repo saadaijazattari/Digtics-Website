@@ -82,7 +82,7 @@ const Client_review = () => {
           {/* Header */}
           <div className='flex flex-col gap-3'>
             <div className="flex items-center gap-2"><Smallicon /><p className='text-[#2b4dff] text-[clamp(13px,2vw,15.708px)]'>Clients Review</p></div>
-            <h1 className='text-[clamp(25px,3vw,37.338px)]'>What They Say About Our</h1>
+            <h1 className='text-[clamp(25px,3vw,37.338px)] text-[#0a165e]'>What They Say About Our</h1>
             <p className='text-[clamp(13px,2vw,14.9352px)] text-[#212519]'>It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point of using lorem the is Ipsum less normal distribution of letters.</p>
           </div>
 

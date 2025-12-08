@@ -2,6 +2,7 @@ import { ArrowRight, ArrowUpRight, Check, ChevronsRight, Facebook, Instagram, Li
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
+
 const Footer = () => {
   const [ischecked, setIschecked] = useState(false)
   const imp_links=[
@@ -59,10 +60,11 @@ const Footer = () => {
 
       {/* footer first part */}
       <div className='px-[15px] border-y  border-[#ffffff33] py-[clamp(25px,3vw,59px)]'>
-        <div className='w-[95%]  gap-7  2xl:w-[70%] xl:w-[80%]  sm:flex-row sm:flex-wrap items-center  sm:justify-center flex flex-col   m-auto  '>
+        <div className=' flex justify-content  '>
+          <div id='footer_part1' className='sm:flex-row gap-7  w-[95%]    2xl:w-[70%] xl:w-[80%]     m-auto flex-wrap items-center  lg:justify-between flex '>
           <div className='flex flex-col gap-3'><div><img src="/images/logo/logo_footer.svg" alt="logo image" /></div><div className='flex  gap-2'>{logos.map((Icon,i)=><div key={i} className='items-center transition-all duration-300 hover:bg-[#2b4dff] cursor-pointer justify-center flex aspect-square rounded-full h-[clamp(33px,4vw,36px)] border border-[#ffffff33]  text-white '><Icon className='w-[15px] h-[15px]'/></div>)}</div></div>
 
-<div className='flex gap-3 items-center sm:justify-center md:flex-col md:items-start xl:flex-row xl:justify-between justify-start sm:border-l sm:border-[#ffffff33] sm:ml-[clamp(15px,3vw,65px)] sm:pl-[clamp(15px,3vw,65px)]'>
+<div id='footer_part1_box1' className='flex gap-3 items-center  justify-start '>
   <div className='text-white aspect-square w-[clamp(53px,4vw,67px)] items-center justify-center flex rounded-full border border-[#ffffff33]'>
     <PhoneCall className='h-[clamp(27px,3vw,30px)] w-[clamp(27px,3vw,30px)]'/>
   </div>
@@ -72,7 +74,9 @@ const Footer = () => {
     <h1 className='text-[clamp(18px,2vw,24px)] hover:text-[#2b4dff] transition-all duration-300'><Link to='/'>+208-6666-0112</Link></h1>
   </div>
 </div>
-          <div className='flex gap-3  items-center sm:justify-center md:flex-col md:items-start xl:flex-row xl:justify-between justify-start  sm:border-l sm:ml-[clamp(15px,3vw,65px)] sm:pl-[clamp(15px,3vw,65px)]  sm:border-[#ffffff33]'><div className='text-white  aspect-square w-[clamp(53px,4vw,67px)] items-center justify-center flex rounded-full border-[#ffffff33]  border'><Mail className='h-[clamp(27px,3vw,30px)] w-[clamp(27px,3vw,30px)]'/></div><div className='text-white '><p className='text-[clamp(16px,2vw,18px)]'>Email Us</p><h1 className='text-[clamp(18px,2vw,24px)] hover:text-[#2b4dff] transition-all duration-300'><Link to='/'>info@exmple.com</Link></h1></div></div>
+          <div id='footer_part1_box2' className='flex gap-3 items-center  justify-start  '><div className='text-white  aspect-square w-[clamp(53px,4vw,67px)] items-center justify-center flex rounded-full border-[#ffffff33]  border'><Mail className='h-[clamp(27px,3vw,30px)] w-[clamp(27px,3vw,30px)]'/></div><div className='text-white '><p className='text-[clamp(16px,2vw,18px)]'>Email Us</p><h1 className='text-[clamp(18px,2vw,24px)] hover:text-[#2b4dff] transition-all duration-300'><Link to='/'>info@exmple.com</Link></h1></div></div>
+
+          </div>
         </div>
         </div>
 

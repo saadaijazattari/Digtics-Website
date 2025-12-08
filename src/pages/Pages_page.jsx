@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 
-const Service_Page = () => {
+const Pages_page = () => {
   return (
     <div>
       <Navbar/>
@@ -11,4 +11,4 @@ const Service_Page = () => {
   )
 }
 
-export default Service_Page
+export default Pages_page

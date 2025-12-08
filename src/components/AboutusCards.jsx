@@ -69,9 +69,9 @@ const AboutusCards = () => {
                 <Smallicon/>
               <p className='text-[13px] text-[#2b4dff]'>{card.head}</p>
               </div>
-              <h1 className='text-[25px] text-[#0a165e]'>{card.heading}</h1>
-              <p className='text-[13px] text-[#726b7d]'>{card.text}</p>
-              <ul className='text-[13px] text-[#0a165e] list-disc'>
+              <h1 className='text-[clamp(25px,2.1vw,40px)] text-[#0a165e]'>{card.heading}</h1>
+              <p className='text-[clamp(13px,1vw,16px)] text-[#726b7d]'>{card.text}</p>
+              <ul className='text-[clamp(13px,1vw,16px)] text-[#0a165e] list-disc'>
                 <li>{card.p1}</li>
                 <li>{card.p2}</li>
                 <li>{card.p3}</li>
